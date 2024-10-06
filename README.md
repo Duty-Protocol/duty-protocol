@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Duty-Protocol
 
-## Getting Started
+> Empowering Developers, Connecting Careers – Duty Protocol Does It All. 
 
 First, run the development server:
 
