@@ -9,23 +9,6 @@ import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
 
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyDGxdKXwhU1YcsnwxWW-50DTvWON3oW2fU",
-  authDomain: "duty-protocol.firebaseapp.com",
-  projectId: "duty-protocol",
-  storageBucket: "duty-protocol.appspot.com",
-  messagingSenderId: "545880733520",
-  appId: "1:545880733520:web:dc87799322964b9f749e55",
-  measurementId: "G-Y81FNKS1JP"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
